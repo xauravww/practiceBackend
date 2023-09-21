@@ -1,10 +1,20 @@
-import http from "http"
-import data from "./data.mjs"
+import { dbConnect } from "./mongodb.js"
 
-http
-  .createServer((req, res) => {
-    res.writeHead(206, { "Content-type": "application/json" })
-    res.write(JSON.stringify(data))
-    res.end()
-  })
-  .listen(5500)
+const getData = async () => {
+  let result = await dbConnect()
+  let data = await result.find().toArray()
+  console.log(data)
+}
+
+// const getData = () => {
+//   dbConnect().then((resp) => {
+//     resp
+//       .find()
+//       .toArray()
+//       .then((data) => {
+//         console.log(data)
+//       })
+//   })
+// }
+
+getData()

@@ -1,20 +1,20 @@
-import { dbConnect } from "./mongodb.js"
+import express from "express"
+import "./config.js"
+import Product from "./product.js"
 
-const getData = async () => {
-  let result = await dbConnect()
-  let data = await result.find().toArray()
-  console.log(data)
-}
+const app = express()
+app.use(express.json())
 
-// const getData = () => {
-//   dbConnect().then((resp) => {
-//     resp
-//       .find()
-//       .toArray()
-//       .then((data) => {
-//         console.log(data)
-//       })
-//   })
-// }
+app.get("/search/:key", async (req, resp) => {
+  let data = await Product.find({
+    $or: [
+      { name: { $regex: req.params.key, $options: "i" } },
+      { brand: { $regex: req.params.key, $options: "i" } }
 
-getData()
+      // options is used for make searching case in-sensitive
+    ]
+  })
+  resp.send(data)
+})
+
+app.listen(5000)

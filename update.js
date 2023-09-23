@@ -5,7 +5,7 @@ const updateData = async () => {
   let result = data.updateMany(
     {
       name: "Sama",
-      Status: "Married"
+  
     },
     {
       $set: { name: "Naveen" }

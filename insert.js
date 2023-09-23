@@ -4,9 +4,9 @@ const insert = async () => {
   const db = await dbConnect()
     const result = await db.insertMany([
       
-        { name: "Sama", RollNo: 130 },
-        { name: "Rama", RollNo: 120 },
-        {name:"Obama",RollNo:110}
+        { name: "Hans", RollNo: 130 },
+        { name: "Saurav", RollNo: 120 },
+        {name:"pankaj"}
   ])
     
     console.log(result)

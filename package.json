@@ -19,6 +19,7 @@
   "homepage": "https://github.com/xauravww/practiceBackend#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "url": "^0.11.3"
   }
 }

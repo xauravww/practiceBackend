@@ -8,3 +8,8 @@
 1699853677134: New Request Received on /about?userName=xaurav&id=1 
 1699853941324: New Request Received on /about?userName=xaurav&id=1 
 1699853942655: New Request Received on /about?userName=xaurav&id=1 
+1699855178780: New GET Request Received on /signup&id=1 
+1699855200214: New GET Request Received on /signup&id=1 
+1699855201069: New GET Request Received on /signup&id=1 
+1699855231400: New GET Request Received on /signup 
+1699855249587: New GET Request Received on /signup?user=hello 

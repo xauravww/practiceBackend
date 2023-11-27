@@ -1,0 +1,28 @@
+# Versioning in Node and Express
+
+~18.15.1
+^18.17.2
+
+~ server detects for minor updates automatically ie. rightmost digit changes
+^ server detects for recommended updates automatically ie. middle digit changes
+
+ middle part for security udpates and also recommended
+
+ first part if major update and shouldn't be changed for same project otherwise code may break
+
+ # Status Code Responses
+1.Informational  (100-199)
+2.Successful (200-299)
+3.Redirection (300-399)
+4.Client Error (400-499)
+5.Server (500-599)
+
+200 -OK , 201- Created ,204 - No Content
+
+400- Bad Request
+401 -Unauthorized
+403 - Forbidden //authorized but no access right
+404 - Not found
+
+soemtimes it express handles status codes automtically 
+//check doumentation for more status code

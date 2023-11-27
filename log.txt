@@ -13,3 +13,48 @@
 1699855201069: New GET Request Received on /signup&id=1 
 1699855231400: New GET Request Received on /signup 
 1699855249587: New GET Request Received on /signup?user=hello 
+
+ 1700118541394: DELETE /api/v1/users/102
+ 1700118549993: POST /api/v1/users
+ 1700118570875: POST /api/v1/users
+ 1700118586590: GET /api/v1/users/103
+ 1700118589875: GET /api/v1/users/102
+ 1700118627315: PATCH /api/v1/users
+ 1700118731122: PATCH /api/v1/users IP: ::1
+ 1700118741645: GET /api/v1/users/102 IP: ::1
+ 1700118749098: GET /api/v1/users/103 IP: ::1
+ 1700118767447: GET /users IP: ::1
+ 1700119746408: POST /api/v1/users IP: ::1
+ 1700119976192: POST /api/v1/users IP: ::1
+ 1700120278546: GET /api/v1/users/103 IP: ::1
+ 1700120285634: GET /api/v1/users/1099 IP: ::1
+ 1701068006740: POST /api/v1/users IP: ::1
+ 1701068032485: POST /api/v1/users IP: ::1
+ 1701068157001: POST /api/v1/users IP: ::1
+ 1701068456425: POST /api/v1/users IP: ::1
+ 1701068568761: POST /api/v1/users IP: ::1
+ 1701068744393: POST /api/v1/users IP: ::1
+ 1701069641720: POST /api/v1/users IP: ::1
+ 1701069866213: POST /api/v1/users IP: ::1
+ 1701069956321: POST /api/v1/users IP: ::1
+ 1701069988938: POST /api/v1/users IP: ::1
+ 1701070129389: POST /api/v1/users IP: ::1
+ 1701070154703: POST /api/v1/users IP: ::1
+ 1701070225017: GET /users IP: ::1
+ 1701070225737: GET /favicon.ico IP: ::1
+ 1701095034358: POST /api/v1/users IP: ::1
+ 1701095082527: POST /api/v1/users IP: ::1
+ 1701095116039: POST /api/v1/users IP: ::1
+ 1701095411572: GET /users IP: ::1
+ 1701095411864: GET /favicon.ico IP: ::1
+ 1701095423923: GET /users IP: ::1
+ 1701095459098: GET /users IP: ::1
+ 1701095481539: POST /api/v1/users IP: ::1
+ 1701095486376: GET /users IP: ::1
+ 1701095598726: GET /api/v1/users IP: ::1
+ 1701095685327: GET /api/v1/users/6564a839993d258bd9e574d8 IP: ::1
+ 1701095937544: GET /users IP: ::1
+ 1701095949694: GET /api/v1/users/6564a839993d258bd9e574d8 IP: ::1
+ 1701095955756: PATCH /api/v1/users/6564a839993d258bd9e574d8 IP: ::1
+ 1701096020999: PATCH /api/v1/users/6564a839993d258bd9e574d8 IP: ::1
+ 1701096027331: GET /users IP: ::1
